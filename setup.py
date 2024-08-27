@@ -42,7 +42,7 @@ setup(
         "matplotlib",
         "panel",
         "einops",
-        "torch==2.1.2",
+        "torch==2.2.0",
         "datasets==2.16.1",
         "bitsandbytes==0.42.0",
         "xformers==0.0.23.post1",
