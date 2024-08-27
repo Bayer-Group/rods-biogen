@@ -1,0 +1,5 @@
+balance: False 
+n_minimum_of_prompts_per_class: 10
+n_samples_train: 30
+n_samples_test: 20
+n_samples_val: 10

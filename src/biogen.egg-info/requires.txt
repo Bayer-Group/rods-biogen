@@ -1,0 +1,14 @@
+torchvision
+pytorch_lightning
+transformers
+diffusers>=0.11.0
+umap-learn
+networkx==2.8.6
+matplotlib
+panel
+einops
+torch==2.1.2
+datasets==2.16.1
+bitsandbytes==0.42.0
+xformers==0.0.23.post1
+ray==2.32.0

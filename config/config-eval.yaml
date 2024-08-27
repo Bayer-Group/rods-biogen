@@ -1,0 +1,4 @@
+now: ${now:%Y%m%d%H%M}
+
+defaults:
+  - evaluation: default

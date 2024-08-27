@@ -1,0 +1,15 @@
+# #############################################################
+#
+# List of approvers/reviewers for MEP-LDM code
+#
+# #############################################################
+#
+# Get in touch with us via: pedro.c.osorio@gmail.com
+# 
+#
+# Learn about CODEOWNERS file format: 
+#  https://help.github.com/en/articles/about-code-owners
+#
+
+# These owners will be the default owners for everything in the repo.
+* @pedr0sorio @guillermojp

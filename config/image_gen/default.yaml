@@ -1,0 +1,11 @@
+model_path: ???
+prompt_dict_path: ???
+ckpt: ???
+save_im_path: ???
+n_batch: 2500
+num_images_batch: 10
+guidance_scale: 7.5
+enable_xformers: true
+num_inference_steps: 50
+n_most_common: null
+LORA_base_model: null

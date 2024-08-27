@@ -1,0 +1,11 @@
+model_path: example_data/histopathology/testing-prompted-metadata/dataset_balanced/model/ckpts
+prompt_dict_path: example_data/histopathology/testing-prompted-metadata/metadata/text_2_promptidx_valid_susbet.json
+ckpt: null # means last
+save_im_path: example_data/histopathology/testing-prompted-metadata/dataset_balanced/model/images-ckpt-last/image/train
+n_batch: 1
+num_images_batch: 5
+guidance_scale: 7.5
+enable_xformers: true
+num_inference_steps: 25
+n_most_common: null
+LORA_base_model: null

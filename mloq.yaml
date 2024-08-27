@@ -1,0 +1,83 @@
+globals:
+  project_name: MEP-LDM
+  default_branch: main
+  owner: pedr0sorio
+  author: pedr0sorio
+  email: pedro.osorio1@bayer.com
+  description: Synthetic data generation for biomedical data
+  open_source: true
+  project_url: https://github.com/bayer-int/MEP-LDM
+
+license:
+  disable: true
+  license: AGPL-3.0
+  copyright_year: 2022
+  copyright_holder: ${globals.owner}
+  open_source: ${globals.open_source}
+  project_name: ${globals.project_name}
+  email: ${globals.email}
+  project_url: ${globals.project_url}
+
+project:
+  disable: false
+  docker: false  # FIXME: depends on docker command
+  license: ${license.license}  # FIXME: depends on docker command
+  project_name: ${globals.project_name}
+  owner: ${globals.owner}
+  description: ${globals.description}
+  project_url: ${globals.project_url}
+  tests: true
+
+mlflow:
+  disable: true
+
+docs:
+  disable: false
+  project_name: ${globals.project_name}
+  description: ${globals.description}
+  author: ${globals.author}
+  copyright_holder: ${license.copyright_holder}
+  copyright_year: ${license.copyright_year}
+
+git:
+  disable: true
+  git_init: false
+  git_push: false
+  git_message: Generate project files with mloq
+  default_branch: ${globals.default_branch}
+  project_url: ${globals.project_url}
+
+package:
+  disable: false
+  open_source: ${globals.open_source}
+  project_name: ${globals.project_name}
+  description: ${globals.description}
+  default_branch: ${globals.default_branch}
+  project_url: ${globals.project_url}
+  owner: ${globals.owner}
+  author: ${globals.author}
+  email: ${globals.email}
+  license: ${license.license}
+  python_versions:
+  - '3.8'
+  - '3.9'
+  - '3.10'
+  pyproject_extra: ""
+  license_classifier: "License :: OSI Approved :: MIT License"
+  pipenv: true
+
+requirements:
+  disable: true
+  requirements:
+    - none
+
+lint:
+  disable: false
+  docstring_checks: false
+  pyproject_extra: |-
+    [tool.flakehell.exceptions."**/assets/*"]
+    pycodestyle = ["-*"]
+    pyflakes = ["-*"]
+    "flake8*" = ["-*"]
+  project_name: ${globals.project_name}
+  makefile: true

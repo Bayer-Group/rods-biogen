@@ -1,0 +1,6 @@
+defaults:
+  - pb/dataset: default
+  - pb/balancing: default
+  - pb/strategy: default
+  - pb/outlierremoval: histopathology-patches
+  - pb/outputformat: default

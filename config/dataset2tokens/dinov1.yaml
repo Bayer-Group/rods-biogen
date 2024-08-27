@@ -1,0 +1,7 @@
+dataset_name: ???
+path: ???
+label_key: ???
+image_key: "image"
+model_id: dino-vitb8 # DiNOV1 MODEL
+canny_edge_based: False
+batch_size: 92

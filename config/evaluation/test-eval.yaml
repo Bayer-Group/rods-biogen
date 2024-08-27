@@ -1,0 +1,5 @@
+real_image_data_path: example_data/histopathology/testing-prompted-metadata/dataset_balanced/image
+synthetic_image_data_path: example_data/histopathology/testing-prompted-metadata/dataset_balanced/model/images-ckpt-last/image
+token_type: inceptionv3_tokens
+batch_size: 92
+batch_size_conversion: 128

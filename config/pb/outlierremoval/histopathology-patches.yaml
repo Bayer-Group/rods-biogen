@@ -1,0 +1,8 @@
+outlier_removal: true
+th_V_max: 70
+th_S_max: 3
+th_std_V: 4
+th_std_S: 4
+th_std_H: 1.5
+th_var_L: 100
+th_n_contour: 10

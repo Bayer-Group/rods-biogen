@@ -1,0 +1,10 @@
+sphinx==4.5.0
+linkify-it-py==2.0.0
+myst-parser==0.18.0
+myst-nb==0.16.0
+ruyaml==0.19.2
+sphinx-autoapi==1.9.0
+sphinxcontrib-mermaid==0.7.1
+sphinx_book_theme==0.3.3
+jupyter-cache==0.5.0
+sphinxcontrib-bibtex==2.5.0

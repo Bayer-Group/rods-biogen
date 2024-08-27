@@ -1,0 +1,6 @@
+balance: True 
+n_minimum_of_prompts_per_class: 10
+n_samples_train: 50_000
+n_samples_test: 5_000
+n_samples_val: 1_000
+

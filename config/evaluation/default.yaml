@@ -1,0 +1,5 @@
+real_image_data_path: ???
+synthetic_image_data_path: ???
+token_type: ???
+batch_size: 92
+batch_size_conversion: 128

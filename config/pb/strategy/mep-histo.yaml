@@ -1,0 +1,3 @@
+n_clusters_prompts: 33
+kmeans_batch_size: null
+text_template: Histology image of [LABEL] tissue, morphology type [MEP-CLUSTER-INDEX]

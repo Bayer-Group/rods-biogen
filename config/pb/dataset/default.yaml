@@ -1,0 +1,5 @@
+ds_path: ???
+data_key: class_token
+label_key: label
+path_key: path
+class_names_dict: null

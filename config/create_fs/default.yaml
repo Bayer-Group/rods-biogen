@@ -1,0 +1,7 @@
+experiment_name: ???
+data_path: ???
+df_data_dir: null
+save_files_dir: null
+unconditional_dataset: false
+seperate_folder_per_label: false
+label_column: label_name

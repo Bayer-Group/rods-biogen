@@ -1,0 +1,3 @@
+n_clusters_prompts: 10
+kmeans_batch_size: null
+text_template: Chest X-Ray image with morphology type [MEP-CLUSTER-INDEX]
